@@ -1,0 +1,35 @@
+img {
+    display: flex;
+    margin: auto;
+    padding: 10px;
+
+}
+ .search-box {
+    border: solid grey 2px;
+    margin: 10px auto;
+    width: 60%;
+    
+ }
+ input {
+    width: 60%;
+    
+ }
+ input:active {
+    background-color: red;
+    
+ }
+
+
+ @media (min-width: 768px) {
+    .row {
+      display: flex;
+      flex-direction: row;
+      
+    }
+
+
+
+
+  }
+  
+  
