@@ -1,4 +1,4 @@
-img {
+a img {
     display: flex;
     margin: auto;
     padding: 10px;
@@ -8,28 +8,33 @@ img {
     border: solid grey 2px;
     margin: 10px auto;
     width: 60%;
-    
- }
- input {
-    width: 60%;
-    
- }
- input:active {
-    background-color: red;
-    
  }
 
+ input {
+    width: 60%;
+    border: none;
+ }
+
+ input:hover {
+     }
+
+input:focus {
+   outline: none;
+}
 
  @media (min-width: 768px) {
     .row {
       display: flex;
       flex-direction: row;
-      
+      margin: auto;
     }
-
-
-
-
   }
   
-  
+  @media (min-width: 1024px) {
+   .row {
+     display: flex;
+     flex-direction: row;
+     margin: auto;
+     justify-content: space-around;
+   }
+ }
