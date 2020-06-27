@@ -3,17 +3,37 @@ a img {
     margin: auto;
     padding: 10px;
 }
- .search-box {
+.search-box {
     border: solid grey 2px;
     margin: 10px auto;
     width: 60%;
 }
- input {
+input {
     border: none;
- }
+}
 input:focus {
    outline: none;
 }
+/*============================== CUSTOM CHANGES TO LIGHT GALLERY PLUG IN =========================================*/
+.lg-outer #lg-share,
+  #lg-actual-size,
+ .lg-download,
+ .lg-autoplay-button,
+ #lg-zoom-in,
+ #lg-zoom-out,
+ .lg-fullscreen,
+ .lg-outer .lg-toogle-thumb {
+   display: none;
+ }
+ 
+.lg-actions .lg-next {
+  right: 120px;
+}
+.lg-actions .lg-prev {
+  left: 120px;
+}
+
+/*============================== MEDIA QUERY-TABLET =========================================*/
  @media (min-width: 768px) {
     .row {
       display: flex;
@@ -22,6 +42,8 @@ input:focus {
       margin: auto;
     }
   }
+/*============================== MEDIA QUERY-DESKTOP =========================================*/
+
   @media (min-width: 1024px) {
    .row {
      justify-content: space-between;
@@ -32,3 +54,4 @@ input:focus {
      flex-basis: 23%;
    }
  }
+ 
