@@ -7,32 +7,33 @@ a img {
     border: solid grey 2px;
     margin: 10px auto;
     width: 60%;
+    
 }
 input {
     border: none;
+    width: 99%;
+    font-size: 16px;
 }
 input:focus {
    outline: none;
 }
 /*============================== CUSTOM CHANGES TO LIGHT GALLERY PLUG IN =========================================*/
 .lg-outer #lg-share,
-  #lg-actual-size,
- .lg-download,
- .lg-autoplay-button,
- #lg-zoom-in,
- #lg-zoom-out,
- .lg-fullscreen,
- .lg-outer .lg-toogle-thumb {
+#lg-actual-size,
+.lg-download,
+.lg-autoplay-button,
+#lg-zoom-in,
+#lg-zoom-out,
+.lg-fullscreen,
+.lg-outer .lg-toogle-thumb {
    display: none;
- }
- 
+}
 .lg-actions .lg-next {
   right: 120px;
 }
 .lg-actions .lg-prev {
   left: 120px;
 }
-
 /*============================== MEDIA QUERY-TABLET =========================================*/
  @media (min-width: 768px) {
     .row {
@@ -43,7 +44,6 @@ input:focus {
     }
   }
 /*============================== MEDIA QUERY-DESKTOP =========================================*/
-
   @media (min-width: 1024px) {
    .row {
      justify-content: space-between;
